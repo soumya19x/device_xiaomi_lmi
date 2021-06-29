@@ -24,4 +24,7 @@
 
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">130dp</dimen>
+
+    <!-- Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner radius -->
+    <dimen name="config_rounded_mask_size">140px</dimen>
 </resources>
