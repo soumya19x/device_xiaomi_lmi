@@ -5,6 +5,8 @@ ro.charger.enable_suspend=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 qemu.sf.lcd_density=440
+# Graphics
+debug.cpurend.vsync=false
 
 # IMS
 persist.dbg.volte_avail_ovr=1
