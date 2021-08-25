@@ -18,9 +18,11 @@ package org.lineageos.devicesettings.popupcamera;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
+
 import org.lineageos.devicesettings.R;
 
 public class PopupCameraSettingsFragment

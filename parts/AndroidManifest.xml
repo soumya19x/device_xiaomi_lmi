@@ -17,43 +17,42 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.lineageos.devicesettings"
+    android:sharedUserId="android.uid.system"
     android:versionCode="1"
-    android:versionName="1.0"
-    android:sharedUserId="android.uid.system">
+    android:versionName="1.0" >
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="24"/>
+        android:targetSdkVersion="24" />
 
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
         android:persistent="true"
-        android:theme="@style/Theme.Main">
+        android:theme="@style/Theme.Main" >
 
-        <receiver android:name=".BootCompletedReceiver">
+        <receiver android:name=".BootCompletedReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
 
+        <!-- Popup camera -->
         <service
             android:name=".popupcamera.PopupCameraService"
-            android:permission="PopupCameraService">
+            android:permission="PopupCameraService" >
         </service>
-
         <activity
             android:name=".popupcamera.PopupCameraSettingsActivity"
             android:label="@string/popup_title"
-            android:theme="@style/Theme.Main">
+            android:theme="@style/Theme.Main" >
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
-
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
@@ -62,10 +61,10 @@
                 android:resource="@drawable/ic_settings_popup" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/summary_empty" />
+                android:resource="@string/popup_summary" />
             <meta-data
                 android:name="com.android.settings.order"
-                android:value="-255" />
+                android:value="-20" />
         </activity>
 
     </application>

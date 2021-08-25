@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+
     <!-- Popup camera -->
     <string name="popup_title">前置摄像头设置</string>
     <string name="popup_led_title">相机指示灯</string>
@@ -37,4 +38,5 @@
     <string name="stop_operate_camera_frequently">你太频繁地打开前置摄像头。</string>
     <string name="takeback_camera_front_failed">前置相机收回失败，请重试</string>
     <string name="popup_camera_front_failed">前置相机弹出失败，请重试</string>
+
 </resources>

@@ -40,8 +40,10 @@ import android.os.UserHandle;
 import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
+
 import org.lineageos.devicesettings.R;
 import org.lineageos.devicesettings.utils.FileUtils;
+
 import vendor.xiaomi.hardware.motor.V1_0.IMotor;
 import vendor.xiaomi.hardware.motor.V1_0.IMotorCallback;
 import vendor.xiaomi.hardware.motor.V1_0.MotorEvent;
