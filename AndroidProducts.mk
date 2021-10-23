@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_lmi.mk
+    $(LOCAL_DIR)/titan_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_lmi-user \
-    derp_lmi-userdebug \
-    derp_lmi-eng
+    titan_lmi-user \
+    titan_lmi-userdebug \
+    titan_lmi-eng
