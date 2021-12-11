@@ -39,18 +39,15 @@ public class Constants {
   public static final int MOTOR_STATUS_TAKEBACK_OK = 13;
 
   public static final String CLOSE_CAMERA_STATE = "0";
+  public static final String FRONT_CAMERA_ID = "1";
   public static final String OPEN_CAMERA_STATE = "1";
 
-  public static final String FRONT_CAMERA_ID = "1";
   public static final String BLUE_LED_PATH = "/sys/class/leds/blue/breath";
+  public static final String BLUE_RIGHT_LED_PATH = "/sys/class/leds/blue-right/breath";
+  public static final String GREEN_LED_PATH = "/sys/class/leds/green/breath";
+  public static final String GREEN_RIGHT_LED_PATH = "/sys/class/leds/green-right/breath";
   public static final String RED_LED_PATH = "/sys/class/leds/red/breath";
-  public static final String GREEN_LED_PATH =
-      "/sys/class/leds/green/breath";
-  public static final String BLUE_RIGHT_LED_PATH =
-      "/sys/class/leds/blue-right/breath";
-  public static final String RED_RIGHT_LED_PATH =
-      "/sys/class/leds/red-right/breath";
-  public static final String GREEN_RIGHT_LED_PATH =
-      "/sys/class/leds/green-right/breath";
+  public static final String RED_RIGHT_LED_PATH = "/sys/class/leds/red-right/breath";
+
   public static final String POPUP_SOUND_PATH = "/system/media/audio/ui/";
 }
