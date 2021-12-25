@@ -25,9 +25,9 @@
     <dimen name="status_bar_height_landscape">32dp</dimen>
 
     <!-- Radius of the software rounded corners -->
-    <dimen name="rounded_corner_radius">160px</dimen>
+    <dimen name="rounded_corner_radius">158px</dimen>
 
     <!-- Adjustment for the software rounded corners
          since they are not perfectly round -->
-    <dimen name="rounded_corner_radius_adjustment">55px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">53px</dimen>
 </resources>
