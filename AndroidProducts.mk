@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titan_lmi.mk
+    $(LOCAL_DIR)/cherish_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    titan_lmi-user \
-    titan_lmi-userdebug \
-    titan_lmi-eng
+    cherish_lmi-user \
+    cherish_lmi-userdebug \
+    cherish_lmi-eng
